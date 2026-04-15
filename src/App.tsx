@@ -102,19 +102,19 @@ export default function App() {
 
           <div className="absolute left-[20px] lg:left-[40px] top-1/2 -translate-y-1/2 flex flex-col gap-[10px] max-w-[185px] lg:max-w-[332px] z-10">
             <h2
-              className="text-black lg:text-white text-[22.81px] lg:text-[46px] leading-[20px] lg:leading-[40px] tracking-tight uppercase"
+              className="text-white text-[22.81px] lg:text-[46px] leading-[20px] lg:leading-[40px] tracking-tight uppercase"
               style={{ fontFamily: 'var(--font-benpark)' }}
             >
               MENTORIA <br />INDIVIDUAL
             </h2>
-            <p className="text-[#2c2b2b] lg:text-[#eaeaea] text-[12px] lg:text-[18px] leading-[17px] lg:leading-[26px] font-normal" style={{ fontFamily: 'var(--font-inter)' }}>
+            <p className="text-[#eaeaea] text-[12px] lg:text-[18px] leading-[17px] lg:leading-[26px] font-normal" style={{ fontFamily: 'var(--font-inter)' }}>
               Acompanhamento direto comigo para dominar posicionamento, vendas e aquisição de clientes.
             </p>
             <div className="btn-shine-dark bg-white rounded-[6px] lg:rounded-[12px] px-[15px] lg:px-[30px] py-[7.5px] lg:py-[15px] flex items-center gap-[5px] lg:gap-[10px] w-fit">
-              <span className="text-[#c25203] lg:text-[#ea0071] text-[10.9px] lg:text-[20px] leading-[15px] lg:leading-[28px] font-normal" style={{ fontFamily: 'var(--font-inter)' }}>
+              <span className="text-[#ea0071] text-[10.9px] lg:text-[20px] leading-[15px] lg:leading-[28px] font-normal" style={{ fontFamily: 'var(--font-inter)' }}>
                 Garantir vaga
               </span>
-              <ArrowIcon className="size-[12px] lg:size-[24px] text-[#c25203] lg:text-[#ea0071]" />
+              <ArrowIcon className="size-[12px] lg:size-[24px] text-[#ea0071]" />
             </div>
           </div>
         </a>
@@ -217,7 +217,7 @@ export default function App() {
             className="absolute inset-0 w-full h-full object-cover hidden lg:block"
           />
 
-          <div className="absolute left-[15px] lg:left-[30px] top-1/2 -translate-y-1/2 flex flex-col gap-[10px] max-w-[213px] lg:max-w-[398px] z-10">
+          <div className="absolute left-[15px] lg:left-[30px] top-1/2 -translate-y-1/2 flex flex-col gap-[10px] max-w-[200px] lg:max-w-[398px] z-10">
             <img
               src="/logo-consulta-lucrativa.webp"
               alt="CONSULTA"
