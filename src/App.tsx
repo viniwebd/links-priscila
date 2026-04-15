@@ -46,12 +46,19 @@ export default function App() {
           href="https://wa.me/555197400814?text=Oi%20Priscila%2C%20tenho%20interesse%20e%20quero%20saber%20mais%20a%20asssesoria%20da%20BERT."
           target="_blank"
           rel="noopener noreferrer"
-          className="banner-card w-full max-w-[360px] lg:max-w-[726px] h-[148.76px] lg:h-[300px] bg-[#050505] rounded-[10px] lg:rounded-[20px] relative overflow-hidden block"
+          className="banner-card w-full max-w-[360px] lg:max-w-[726px] h-[180px] lg:h-[300px] bg-[#050505] rounded-[10px] lg:rounded-[20px] relative overflow-hidden block"
         >
+          {/* Mobile Image */}
+          <img
+            src="/banners-mobile/trafego-estrategia-mobile.webp"
+            alt="Priscila Rech - Tráfego e Estratégia"
+            className="absolute inset-0 w-full h-full object-cover lg:hidden"
+          />
+          {/* Desktop Image */}
           <img
             src="/trafego-estrategia.webp"
             alt="Priscila Rech - Tráfego e Estratégia"
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover hidden lg:block"
           />
 
           <div className="absolute left-[20px] lg:left-[40px] top-1/2 -translate-y-1/2 flex flex-col gap-[5px] lg:gap-[10px] max-w-[190px] lg:max-w-[338px]">
@@ -78,12 +85,19 @@ export default function App() {
           href="https://form.typeform.com/to/CNtrNE77"
           target="_blank"
           rel="noopener noreferrer"
-          className="banner-card w-full max-w-[360px] lg:max-w-[726px] h-[148.76px] lg:h-[300px] bg-[#ea0071] rounded-[10px] lg:rounded-[20px] relative overflow-hidden block"
+          className="banner-card w-full max-w-[360px] lg:max-w-[726px] h-[180px] lg:h-[300px] bg-[#ea0071] rounded-[10px] lg:rounded-[20px] relative overflow-hidden block"
         >
+          {/* Mobile Image */}
+          <img
+            src="/banners-mobile/mentoria-individual-mobile.webp"
+            alt="Priscila Rech - Mentoria Individual"
+            className="absolute inset-0 w-full h-full object-cover lg:hidden"
+          />
+          {/* Desktop Image */}
           <img
             src="/mentoria-individual.webp"
             alt="Priscila Rech - Mentoria Individual"
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover hidden lg:block"
           />
 
           <div className="absolute left-[20px] lg:left-[40px] top-1/2 -translate-y-1/2 flex flex-col gap-[5px] lg:gap-[10px] max-w-[165px] lg:max-w-[332px] z-10">
@@ -110,11 +124,11 @@ export default function App() {
           href="https://wa.me/555197400814?text=Oi%20Priscila%2C%20tenho%20interesse%20e%20quero%20entrar%20na%20mentoria%20BLI%24S."
           target="_blank"
           rel="noopener noreferrer"
-          className="banner-card w-full max-w-[360px] lg:max-w-[726px] h-[148.76px] lg:h-[300px] bg-[#0e586d] rounded-[10px] lg:rounded-[20px] relative overflow-hidden block"
+          className="banner-card w-full max-w-[360px] lg:max-w-[726px] h-[180px] lg:h-[300px] bg-[#0e586d] rounded-[10px] lg:rounded-[20px] relative overflow-hidden block"
         >
           {/* Mobile Image */}
           <img
-            src="/mentoria-bliss-mobile.webp"
+            src="/banners-mobile/mentoria-bliss-mobile.webp"
             alt="Priscila Rech - Mentoria Bliss"
             className="absolute inset-0 w-full h-full object-cover lg:hidden"
           />
@@ -148,12 +162,19 @@ export default function App() {
           href="https://pay.kiwify.com.br/7AsuYk3"
           target="_blank"
           rel="noopener noreferrer"
-          className="banner-card w-full max-w-[360px] lg:max-w-[726px] h-[148.76px] lg:h-[300px] rounded-[10px] lg:rounded-[20px] relative overflow-hidden block"
+          className="banner-card w-full max-w-[360px] lg:max-w-[726px] h-[180px] lg:h-[300px] rounded-[10px] lg:rounded-[20px] relative overflow-hidden block"
         >
+          {/* Mobile Image */}
+          <img
+            src="/banners-mobile/sun-beauty-mobile.webp"
+            alt="Sun Beauty"
+            className="absolute inset-0 w-full h-full object-cover lg:hidden"
+          />
+          {/* Desktop Image */}
           <img
             src="/sun-beauty.webp"
             alt="Sun Beauty"
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover hidden lg:block"
           />
 
           <div className="absolute left-[20px] lg:left-[40px] top-1/2 -translate-y-1/2 flex flex-col gap-[5px] lg:gap-[10px] max-w-[170px] lg:max-w-[336px] z-10">
@@ -181,12 +202,19 @@ export default function App() {
           href="https://priscilarech.com.br/"
           target="_blank"
           rel="noopener noreferrer"
-          className="banner-card w-full max-w-[360px] lg:max-w-[726px] h-[148.76px] lg:h-[300px] bg-[#010101] rounded-[10px] lg:rounded-[20px] relative overflow-hidden block"
+          className="banner-card w-full max-w-[360px] lg:max-w-[726px] h-[180px] lg:h-[300px] bg-[#010101] rounded-[10px] lg:rounded-[20px] relative overflow-hidden block"
         >
+          {/* Mobile Image */}
+          <img
+            src="/banners-mobile/consulta-lucrativa-mobile.webp"
+            alt="Priscila Rech - Consulta Lucrativa"
+            className="absolute inset-0 w-full h-full object-cover lg:hidden"
+          />
+          {/* Desktop Image */}
           <img
             src="/consulta-lucrativa.webp"
             alt="Priscila Rech - Consulta Lucrativa"
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover hidden lg:block"
           />
 
           <div className="absolute left-[15px] lg:left-[30px] top-1/2 -translate-y-1/2 flex flex-col gap-[5px] lg:gap-[10px] max-w-[213px] lg:max-w-[398px] z-10">
