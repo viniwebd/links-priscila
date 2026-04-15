@@ -1,10 +1,8 @@
 function ArrowIcon({ className }: { className?: string }) {
   return (
-    <div className={`flex items-center justify-center ${className || "size-[24px]"}`}>
-      <svg className="w-full h-full" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-      </svg>
-    </div>
+    <svg className={className || "size-[24px]"} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
   );
 }
 
@@ -25,7 +23,9 @@ export default function App() {
           alt="Priscila Rech"
           className="absolute inset-0 w-full h-full object-cover hidden lg:block"
         />
-        <div className="absolute left-0 right-0 bottom-[30px] flex justify-center">
+        {/* Gradient overlay para telas maiores que 1440px */}
+        <div className="hero-gradient-overlay"></div>
+        <div className="absolute left-0 right-0 bottom-[30px] flex justify-center z-10">
           <h1
             className="text-[50px] lg:text-[82px] leading-none tracking-tight text-black"
             style={{
@@ -65,8 +65,8 @@ export default function App() {
               Tenha o acompanhamento da minha assessoria e escale os resultados da sua clínica.
             </p>
             <div className="btn-shine-dark bg-white rounded-[6px] lg:rounded-[12px] px-[15px] lg:px-[30px] py-[7.5px] lg:py-[15px] flex items-center gap-[5px] lg:gap-[10px] w-fit">
-              <span className="text-black text-[8.9px] lg:text-[18px] leading-[13px] lg:leading-[26px] font-normal" style={{ fontFamily: 'var(--font-inter)' }}>
-                Fazer aplicação
+              <span className="text-black text-[10.9px] lg:text-[20px] leading-[15px] lg:leading-[28px] font-normal" style={{ fontFamily: 'var(--font-inter)' }}>
+                Aplicar agora
               </span>
               <ArrowIcon className="size-[12px] lg:size-[24px] text-black" />
             </div>
@@ -97,8 +97,8 @@ export default function App() {
               Acompanhamento direto comigo para dominar posicionamento, vendas e aquisição de clientes.
             </p>
             <div className="btn-shine-dark bg-white rounded-[6px] lg:rounded-[12px] px-[15px] lg:px-[30px] py-[7.5px] lg:py-[15px] flex items-center gap-[5px] lg:gap-[10px] w-fit">
-              <span className="text-[#c25203] lg:text-[#ea0071] text-[8.9px] lg:text-[18px] leading-[13px] lg:leading-[26px] font-normal" style={{ fontFamily: 'var(--font-inter)' }}>
-                Botão CTA
+              <span className="text-[#c25203] lg:text-[#ea0071] text-[10.9px] lg:text-[20px] leading-[15px] lg:leading-[28px] font-normal" style={{ fontFamily: 'var(--font-inter)' }}>
+                Garantir vaga
               </span>
               <ArrowIcon className="size-[12px] lg:size-[24px] text-[#c25203] lg:text-[#ea0071]" />
             </div>
@@ -135,8 +135,8 @@ export default function App() {
               Para gestores de tráfego e profissionais de marketing que querem se especializar no mercado da estética e escalar clientes.
             </p>
             <div className="btn-shine-dark bg-white rounded-[6px] lg:rounded-[12px] px-[15px] lg:px-[30px] py-[7.5px] lg:py-[15px] flex items-center gap-[5px] lg:gap-[10px] w-fit">
-              <span className="text-[#0e586d] text-[8.9px] lg:text-[18px] leading-[13px] lg:leading-[26px] font-normal" style={{ fontFamily: 'var(--font-inter)' }}>
-                Botão CTA
+              <span className="text-[#0e586d] text-[10.9px] lg:text-[20px] leading-[15px] lg:leading-[28px] font-normal" style={{ fontFamily: 'var(--font-inter)' }}>
+                Entrar agora
               </span>
               <ArrowIcon className="size-[12px] lg:size-[24px] text-[#0e586d]" />
             </div>
@@ -168,8 +168,8 @@ export default function App() {
               O método para criar desafios que atraem pacientes, lotam agendas e geram faturamento em poucos dias.
             </p>
             <div className="btn-shine bg-[#353535] rounded-[6px] lg:rounded-[12px] px-[15px] lg:px-[30px] py-[7.5px] lg:py-[15px] flex items-center gap-[5px] lg:gap-[10px] w-fit">
-              <span className="text-white text-[8.9px] lg:text-[18px] leading-[13px] lg:leading-[26px] font-normal" style={{ fontFamily: 'var(--font-inter)' }}>
-                Botão CTA
+              <span className="text-white text-[10.9px] lg:text-[20px] leading-[15px] lg:leading-[28px] font-normal" style={{ fontFamily: 'var(--font-inter)' }}>
+                Comprar agora
               </span>
               <ArrowIcon className="size-[12px] lg:size-[24px] text-white" />
             </div>
@@ -199,8 +199,8 @@ export default function App() {
               Transforme cada conversa com um paciente em agendamentos pagos e aumento imediato no faturamento da clínica.
             </p>
             <div className="btn-shine bg-[#386f4f] rounded-[6px] lg:rounded-[12px] px-[15px] lg:px-[30px] py-[7.5px] lg:py-[15px] flex items-center gap-[5px] lg:gap-[10px] w-fit">
-              <span className="text-white text-[8.9px] lg:text-[18px] leading-[13px] lg:leading-[26px] font-normal" style={{ fontFamily: 'var(--font-inter)' }}>
-                Botão CTA
+              <span className="text-white text-[10.9px] lg:text-[20px] leading-[15px] lg:leading-[28px] font-normal" style={{ fontFamily: 'var(--font-inter)' }}>
+                Saber mais
               </span>
               <ArrowIcon className="size-[12px] lg:size-[24px] text-white" />
             </div>
@@ -257,7 +257,15 @@ export default function App() {
             2026 © Todos os direitos reservados. Priscila Rech.
           </p>
           <p>
-            Desenvolvido por Studio VYN.
+            Desenvolvido por{' '}
+            <a
+              href="https://studiovyn.com.br/?utm_campaign=footer&utm_medium=priscila_bio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-black transition-colors"
+            >
+              Studio VYN
+            </a>.
           </p>
         </div>
       </footer>
