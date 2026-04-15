@@ -7,7 +7,12 @@
       "Bash(ls:*)",
       "Bash(git commit:*)",
       "mcp__figma-local__get_design_context",
-      "mcp__figma-local__get_screenshot"
+      "mcp__figma-local__get_screenshot",
+      "Bash(npm run dev:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npm install:*)",
+      "mcp__plugin_figma_figma__get_design_context",
+      "Bash(git remote add:*)"
     ]
   }
 }
