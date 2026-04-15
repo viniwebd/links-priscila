@@ -89,7 +89,7 @@ export default function App() {
         >
           {/* Mobile Image */}
           <img
-            src="/banners-mobile/mentoria-individual-mobile.webp"
+            src="/banners-mobile/mentoria-individual-rosa-mobile.webp"
             alt="Priscila Rech - Mentoria Individual"
             className="absolute inset-0 w-full h-full object-cover lg:hidden"
           />
