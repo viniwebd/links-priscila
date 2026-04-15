@@ -61,14 +61,14 @@ export default function App() {
             className="absolute inset-0 w-full h-full object-cover hidden lg:block"
           />
 
-          <div className="absolute left-[20px] lg:left-[40px] top-1/2 -translate-y-1/2 flex flex-col gap-[5px] lg:gap-[10px] max-w-[190px] lg:max-w-[338px]">
+          <div className="absolute left-[20px] lg:left-[40px] top-1/2 -translate-y-1/2 flex flex-col gap-[10px] max-w-[190px] lg:max-w-[338px]">
             <h2
               className="text-white text-[22.81px] lg:text-[46px] leading-[22px] lg:leading-[45px] tracking-tight uppercase"
               style={{ fontFamily: 'var(--font-benpark)' }}
             >
               Tráfego + <br />estratégia.
             </h2>
-            <p className="text-[#e3e2e2] text-[10px] lg:text-[18px] leading-[13px] lg:leading-[26px] font-normal" style={{ fontFamily: 'var(--font-inter)' }}>
+            <p className="text-[#e3e2e2] text-[12px] lg:text-[18px] leading-[17px] lg:leading-[26px] font-normal" style={{ fontFamily: 'var(--font-inter)' }}>
               Tenha o acompanhamento da minha assessoria e escale os resultados da sua clínica.
             </p>
             <div className="btn-shine-dark bg-white rounded-[6px] lg:rounded-[12px] px-[15px] lg:px-[30px] py-[7.5px] lg:py-[15px] flex items-center gap-[5px] lg:gap-[10px] w-fit">
@@ -100,14 +100,14 @@ export default function App() {
             className="absolute inset-0 w-full h-full object-cover hidden lg:block"
           />
 
-          <div className="absolute left-[20px] lg:left-[40px] top-1/2 -translate-y-1/2 flex flex-col gap-[5px] lg:gap-[10px] max-w-[165px] lg:max-w-[332px] z-10">
+          <div className="absolute left-[20px] lg:left-[40px] top-1/2 -translate-y-1/2 flex flex-col gap-[10px] max-w-[165px] lg:max-w-[332px] z-10">
             <h2
               className="text-black lg:text-white text-[22.81px] lg:text-[46px] leading-[20px] lg:leading-[40px] tracking-tight uppercase"
               style={{ fontFamily: 'var(--font-benpark)' }}
             >
               MENTORIA <br />INDIVIDUAL
             </h2>
-            <p className="text-[#2c2b2b] lg:text-[#eaeaea] text-[9.5px] lg:text-[18px] leading-[13px] lg:leading-[26px] font-normal" style={{ fontFamily: 'var(--font-inter)' }}>
+            <p className="text-[#2c2b2b] lg:text-[#eaeaea] text-[12px] lg:text-[18px] leading-[17px] lg:leading-[26px] font-normal" style={{ fontFamily: 'var(--font-inter)' }}>
               Acompanhamento direto comigo para dominar posicionamento, vendas e aquisição de clientes.
             </p>
             <div className="btn-shine-dark bg-white rounded-[6px] lg:rounded-[12px] px-[15px] lg:px-[30px] py-[7.5px] lg:py-[15px] flex items-center gap-[5px] lg:gap-[10px] w-fit">
@@ -139,13 +139,13 @@ export default function App() {
             className="absolute inset-0 w-full h-full object-cover hidden lg:block"
           />
 
-          <div className="absolute left-[20px] lg:left-[40px] top-1/2 -translate-y-1/2 flex flex-col gap-[5px] lg:gap-[10px] max-w-[192px] lg:max-w-[398px] z-10">
+          <div className="absolute left-[20px] lg:left-[40px] top-1/2 -translate-y-1/2 flex flex-col gap-[10px] max-w-[192px] lg:max-w-[398px] z-10">
             <img
               src="/logo-bliss.webp"
               alt="BLISS"
               className="w-[72px] lg:w-[146px] h-auto"
             />
-            <p className="text-[#e3e2e2] text-[9.5px] lg:text-[18px] leading-[13px] lg:leading-[26px] font-light" style={{ fontFamily: 'var(--font-inter)' }}>
+            <p className="text-[#e3e2e2] text-[12px] lg:text-[18px] leading-[17px] lg:leading-[26px] font-light" style={{ fontFamily: 'var(--font-inter)' }}>
               Para gestores de tráfego e profissionais de marketing que querem se especializar no mercado da estética e escalar clientes.
             </p>
             <div className="btn-shine-dark bg-white rounded-[6px] lg:rounded-[12px] px-[15px] lg:px-[30px] py-[7.5px] lg:py-[15px] flex items-center gap-[5px] lg:gap-[10px] w-fit">
@@ -177,7 +177,7 @@ export default function App() {
             className="absolute inset-0 w-full h-full object-cover hidden lg:block"
           />
 
-          <div className="absolute left-[20px] lg:left-[40px] top-1/2 -translate-y-1/2 flex flex-col gap-[5px] lg:gap-[10px] max-w-[170px] lg:max-w-[336px] z-10">
+          <div className="absolute left-[20px] lg:left-[40px] top-1/2 -translate-y-1/2 flex flex-col gap-[10px] max-w-[170px] lg:max-w-[336px] z-10">
             <h2
               className="text-[#353535] text-[29.75px] lg:text-[60px] leading-[25px] lg:leading-[50px] tracking-[-1.5px] lg:tracking-[-3px]"
               style={{ fontFamily: 'var(--font-cormorant)' }}
@@ -185,7 +185,7 @@ export default function App() {
               <span className="font-normal">Sun</span>{' '}
               <span className="font-bold italic">Beauty</span>
             </h2>
-            <p className="text-[#4b4b4b] text-[10px] lg:text-[18px] leading-[13px] lg:leading-[26px] font-light" style={{ fontFamily: 'var(--font-inter)' }}>
+            <p className="text-[#4b4b4b] text-[12px] lg:text-[18px] leading-[17px] lg:leading-[26px] font-light" style={{ fontFamily: 'var(--font-inter)' }}>
               O método para criar desafios que atraem pacientes, lotam agendas e geram faturamento em poucos dias.
             </p>
             <div className="btn-shine bg-[#353535] rounded-[6px] lg:rounded-[12px] px-[15px] lg:px-[30px] py-[7.5px] lg:py-[15px] flex items-center gap-[5px] lg:gap-[10px] w-fit">
@@ -217,13 +217,13 @@ export default function App() {
             className="absolute inset-0 w-full h-full object-cover hidden lg:block"
           />
 
-          <div className="absolute left-[15px] lg:left-[30px] top-1/2 -translate-y-1/2 flex flex-col gap-[5px] lg:gap-[10px] max-w-[213px] lg:max-w-[398px] z-10">
+          <div className="absolute left-[15px] lg:left-[30px] top-1/2 -translate-y-1/2 flex flex-col gap-[10px] max-w-[213px] lg:max-w-[398px] z-10">
             <img
               src="/logo-consulta-lucrativa.webp"
               alt="CONSULTA"
               className="w-[95px] lg:w-[191px] h-auto"
             />
-            <p className="text-[#b7b7b7] text-[10px] lg:text-[18px] leading-[13px] lg:leading-[26px] font-normal" style={{ fontFamily: 'var(--font-inter)' }}>
+            <p className="text-[#b7b7b7] text-[12px] lg:text-[18px] leading-[17px] lg:leading-[26px] font-normal" style={{ fontFamily: 'var(--font-inter)' }}>
               Transforme cada conversa com um paciente em agendamentos pagos e aumento imediato no faturamento da clínica.
             </p>
             <div className="btn-shine bg-[#386f4f] rounded-[6px] lg:rounded-[12px] px-[15px] lg:px-[30px] py-[7.5px] lg:py-[15px] flex items-center gap-[5px] lg:gap-[10px] w-fit">
