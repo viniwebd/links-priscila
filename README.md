@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Priscila Rech - Página de Links
 
-## Getting Started
+Página de links para serviços e mentorias da Priscila Rech, especialista em marketing e vendas para clínicas de estética e saúde.
 
-First, run the development server:
+## Tecnologias
+
+- **React 19** - Biblioteca JavaScript para interfaces
+- **Vite** - Build tool rápido e moderno
+- **TypeScript** - JavaScript com tipagem estática
+- **Tailwind CSS v4** - Framework CSS utility-first
+
+## Como executar
+
+Primeiro, instale as dependências:
+
+```bash
+npm install
+```
+
+Em seguida, execute o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:5173](http://localhost:5173) no navegador para ver o resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build para produção
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+Os arquivos otimizados serão gerados na pasta `/dist`.
 
-To learn more about Next.js, take a look at the following resources:
+## Preview da build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run preview
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Estrutura do projeto
 
-## Deploy on Vercel
+```
+bio/
+├── public/          # Imagens e assets estáticos
+├── src/
+│   ├── App.tsx      # Componente principal
+│   ├── main.tsx     # Entry point do React
+│   └── index.css    # Estilos globais e Tailwind
+├── index.html       # Template HTML
+└── vite.config.ts   # Configuração do Vite
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Serviços
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+A página apresenta 5 serviços principais:
+
+1. **Tráfego + Estratégia** - Assessoria BERT
+2. **Mentoria Individual** - Acompanhamento personalizado
+3. **Mentoria BLISS** - Especialização para gestores de tráfego
+4. **Sun Beauty** - Método de desafios para clínicas
+5. **Consulta Lucrativa** - Conversão de pacientes em agendamentos
+
+## Deploy
+
+O projeto pode ser hospedado em qualquer serviço de hospedagem estática como:
+- Vercel
+- Netlify
+- GitHub Pages
+- Cloudflare Pages
