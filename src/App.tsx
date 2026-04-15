@@ -10,7 +10,7 @@ export default function App() {
   return (
     <div className="bg-white min-h-screen">
       {/* Hero Section */}
-      <section className="relative w-full h-[528px] lg:h-[592px] overflow-hidden bg-white">
+      <section className="relative w-full h-[440px] lg:h-[592px] overflow-hidden bg-white">
         {/* Mobile Image */}
         <img
           src="/img-bg-hero-mobile.webp"
@@ -100,7 +100,7 @@ export default function App() {
             className="absolute inset-0 w-full h-full object-cover hidden lg:block"
           />
 
-          <div className="absolute left-[20px] lg:left-[40px] top-1/2 -translate-y-1/2 flex flex-col gap-[10px] max-w-[165px] lg:max-w-[332px] z-10">
+          <div className="absolute left-[20px] lg:left-[40px] top-1/2 -translate-y-1/2 flex flex-col gap-[10px] max-w-[185px] lg:max-w-[332px] z-10">
             <h2
               className="text-black lg:text-white text-[22.81px] lg:text-[46px] leading-[20px] lg:leading-[40px] tracking-tight uppercase"
               style={{ fontFamily: 'var(--font-benpark)' }}
@@ -139,7 +139,7 @@ export default function App() {
             className="absolute inset-0 w-full h-full object-cover hidden lg:block"
           />
 
-          <div className="absolute left-[20px] lg:left-[40px] top-1/2 -translate-y-1/2 flex flex-col gap-[10px] max-w-[192px] lg:max-w-[398px] z-10">
+          <div className="absolute left-[20px] lg:left-[40px] top-1/2 -translate-y-1/2 flex flex-col gap-[10px] max-w-[200px] lg:max-w-[398px] z-10">
             <img
               src="/logo-bliss.webp"
               alt="BLISS"
@@ -179,7 +179,7 @@ export default function App() {
 
           <div className="absolute left-[20px] lg:left-[40px] top-1/2 -translate-y-1/2 flex flex-col gap-[10px] max-w-[170px] lg:max-w-[336px] z-10">
             <h2
-              className="text-[#353535] text-[29.75px] lg:text-[60px] leading-[25px] lg:leading-[50px] tracking-[-1.5px] lg:tracking-[-3px]"
+              className="text-[#353535] text-[32px] lg:text-[60px] leading-[25px] lg:leading-[50px] tracking-[-1.5px] lg:tracking-[-3px]"
               style={{ fontFamily: 'var(--font-cormorant)' }}
             >
               <span className="font-normal">Sun</span>{' '}
