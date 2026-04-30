@@ -43,7 +43,7 @@ export default function App() {
 
         {/* Card: Tráfego + Estratégia */}
         <a
-          href="https://wa.me/555197400814?text=Oi%20Priscila%2C%20tenho%20interesse%20e%20quero%20saber%20mais%20a%20asssesoria%20da%20BERT."
+          href="https://wa.me/555197400814?text=Oi%20Priscila%2C%20tenho%20interesse%20em%20saber%20mais%20sobre%20a%20assessoria%20de%20tr%C3%A1fego%20e%20estrat%C3%A9gia."
           target="_blank"
           rel="noopener noreferrer"
           className="banner-card w-full max-w-[360px] lg:max-w-[726px] h-[180px] lg:h-[300px] bg-[#050505] rounded-[10px] lg:rounded-[20px] relative overflow-hidden block"
@@ -186,7 +186,7 @@ export default function App() {
               <span className="font-bold italic">Beauty</span>
             </h2>
             <p className="text-[#4b4b4b] text-[12px] lg:text-[18px] leading-[17px] lg:leading-[26px] font-light" style={{ fontFamily: 'var(--font-inter)' }}>
-              O método para criar desafios que atraem pacientes, lotam agendas e geram faturamento em poucos dias.
+              O método para criar desafios de emagrecimento que atraem pacientes, lotam agendas e geram faturamento em poucos dias.
             </p>
             <div className="btn-shine bg-[#353535] rounded-[6px] lg:rounded-[12px] px-[15px] lg:px-[30px] py-[7.5px] lg:py-[15px] flex items-center gap-[5px] lg:gap-[10px] w-fit">
               <span className="text-white text-[10.9px] lg:text-[20px] leading-[15px] lg:leading-[28px] font-normal" style={{ fontFamily: 'var(--font-inter)' }}>
